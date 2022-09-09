@@ -4,11 +4,12 @@
 
 class="mx-auto"
 max-width="800"
+-
 font family="Helvetica"
 background color="#A7C7E7">
 <v-img
     src="/vues.png"
-    height="250px"
+    height="249px"
     cover
     ></v-img>
     <v-card-text>
