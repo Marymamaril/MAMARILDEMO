@@ -1,23 +1,27 @@
 <template>
 <br/>
    
-   
+
      
 <v-card
      class="mx-auto"
      max-width="544"
   
      bacground color="#A7C7E7">
-     
+
+
+   
 
     
 
      <nav> 
   
   <v-toolbar>
+    
   <v-app-bar-nav-icon @click='toggleDrawer'></v-app-bar-nav-icon>
   <v-toolbar-title >
-    <span class="font-weight-hard">Simple application</span>
+    
+    <span class="font-weight-hard">Midterm Project</span>
   </v-toolbar-title>
   <v-spacer></v-spacer>
 
@@ -62,7 +66,12 @@
 
     
   </nav>
+
 </v-card>
+  
+
+
+
 </template>
 
 <script setup>
@@ -71,12 +80,15 @@
   const drawer = ref(false)
 
   const  items =  ref([
-          { title: 'Home', icon: 'mdi-home', path: '/dashboard' },
+          { title: 'Home', icon: 'mdi-home',path: '/dashboard' },
           { title: 'Calculator', icon: 'mdi-calculator-variant', path: '/basicMath' },
           { title: 'String App', icon: 'mdi-help-box', path: '/stringApp'},
           { title: 'Vuetify', icon: 'mdi-vuetify', path: '/vuetify'},
-          { title: 'Aboutme', icon: 'mdi-account-box', path: '/aboutme'},
-          { title: 'AxiosDemo', icon: 'mdi-account-box', path: '/axiosdemo'},
+          { title: 'Aboutme', icon: 'mdi-account-circle', path: '/aboutme'},
+          { title: 'Vue Quiz', icon: 'mdi-help-box', path: '/vuequiz'},
+          { title: 'About', icon: 'mdi-account-box', path: '/AboutApp'}
+          
+
 
         ])
 

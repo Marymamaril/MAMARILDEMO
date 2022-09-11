@@ -37,7 +37,7 @@ background color="#A7C7E7">
             const questions=ref([])
         
             async function getQuestions () {
-                axios.get('https://opentdb.com/api.php?amount=10&category=23&difficulty=easy&type=multiple').then( response => {
+                axios.get('https://opentdb.com/api.php?amount=10&category=20&difficulty=easy&type=multiple').then( response => {
                     questions.value=(response.data.results)
                 })
                 
