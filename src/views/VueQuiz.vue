@@ -7,11 +7,6 @@ background color="#A7C7E7">
 
 
 
-
-
-
-
-
 <v-card-title>Questions and Answer</v-card-title>
 
 
