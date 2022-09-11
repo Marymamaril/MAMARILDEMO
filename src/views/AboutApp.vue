@@ -80,7 +80,7 @@ background color="#A7C7E7"
 
         <v-btn text @click.stop="dialog5 = true" class color="primary" elevation="2">Vue Quiz</v-btn>
 
-        <v-dialog v-model="dialog5" max-width="600px">
+        <v-dialog v-model="dialog5" max-width="599px">
             <v-card>
                 <v-card-title>
                     <h2>Vue Quiz</h2>
