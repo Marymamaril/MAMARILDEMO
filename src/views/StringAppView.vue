@@ -12,7 +12,7 @@
      <v-text-field label="Enter a String" v-model="stringInput"></v-text-field>
     
 
-     <v-btn class="mx-2" color="primary" elevation="2" outlined sqaure @click="compute" >Enter</v-btn>
+     <v-btn class color="primary" elevation="2" outlined sqaure @click="compute" >Enter</v-btn>
 
    
      
