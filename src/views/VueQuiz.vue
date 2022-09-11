@@ -2,7 +2,7 @@
 <br/>
 <v-card
 class="mx-auto"
-max-width="600"
+max-width="599"
 background color="#A7C7E7">
 
 
